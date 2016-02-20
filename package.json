@@ -1,0 +1,28 @@
+{
+  "name": "week15",
+  "version": "1.0.0",
+  "description": "Create an express / handlebars / node.js / mysql app with 3 views Register - don't let someone with the same email register twice The registration should have a first name and last name Login Secret Page On the secret page, display the first and last name of the user Only an authenticated user can see the secret page (remember sessions and middleware?)",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "body-parser": "^1.15.0",
+    "mysql": "^2.10.2",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Das/week15-classwork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-Das/week15-classwork/issues"
+  },
+  "homepage": "https://github.com/C-Das/week15-classwork#readme"
+}
